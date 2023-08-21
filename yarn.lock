@@ -3315,6 +3315,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/papaparse@npm:^5.3.1":
+  version: 5.3.7
+  resolution: "@types/papaparse@npm:5.3.7"
+  dependencies:
+    "@types/node": "*"
+  checksum: 5ffa6fc81c0f41cd18c9c015599b3690f2a19ee553dec85e92c17bd1ef4a045e0ba4973d8bd49aed9f83fcba3b0ec280ebbe0a0def66701c0b4860c691444694
+  languageName: node
+  linkType: hard
+
 "@types/parse-json@npm:^4.0.0":
   version: 4.0.0
   resolution: "@types/parse-json@npm:4.0.0"
@@ -5496,6 +5505,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"csv-parse@npm:^5.4.0":
+  version: 5.4.0
+  resolution: "csv-parse@npm:5.4.0"
+  checksum: e9c2f23953f628849c476adeb9f500e9c03fcfe98fea7b732366e3c2ed0b07a5e67f32ca12a0132db6eb71601c080b4935b5921296db3625a597e24caa16f633
+  languageName: node
+  linkType: hard
+
 "d3-array@npm:2 - 3, d3-array@npm:2.10.0 - 3, d3-array@npm:^3.1.6":
   version: 3.2.4
   resolution: "d3-array@npm:3.2.4"
@@ -5805,9 +5821,14 @@ __metadata:
     "@testing-library/react": ^13.0.0
     "@testing-library/user-event": ^13.2.1
     "@typescript-eslint/parser": ^5.62.0
+    csv-parse: ^5.4.0
     eslint-config-react-app: ^7.0.1
+    fs: ^0.0.1-security
+    fs-react: ^0.0.4
+    papaparse: ^5.4.1
     react: ^18.2.0
     react-dom: ^18.2.0
+    react-papaparse: ^4.1.0
     react-scripts: 5.0.1
     recharts: ^2.7.2
     typescript: ^5.1.6
@@ -7111,10 +7132,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fs-react@npm:^0.0.4":
+  version: 0.0.4
+  resolution: "fs-react@npm:0.0.4"
+  checksum: 60900346a18f3c0897a8882cd15653260c58b998ad7cafd9c0554660ec64603dbfb30842663f6a2b8001358ba79a01a5259711b227cd1c5c1cf32f93000b9c1b
+  languageName: node
+  linkType: hard
+
 "fs.realpath@npm:^1.0.0":
   version: 1.0.0
   resolution: "fs.realpath@npm:1.0.0"
   checksum: 99ddea01a7e75aa276c250a04eedeffe5662bce66c65c07164ad6264f9de18fb21be9433ead460e54cff20e31721c811f4fb5d70591799df5f85dce6d6746fd0
+  languageName: node
+  linkType: hard
+
+"fs@npm:^0.0.1-security":
+  version: 0.0.1-security
+  resolution: "fs@npm:0.0.1-security"
+  checksum: 53c6230e1faae9fa32c1df82c16a84b51b1243d20f3da2b64bd110bb472b73b9185169b703e008356e3cdc92d155088b617d9d39a63b5227a30b3621baad7f5d
   languageName: node
   linkType: hard
 
@@ -10126,6 +10161,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"papaparse@npm:^5.3.1, papaparse@npm:^5.4.1":
+  version: 5.4.1
+  resolution: "papaparse@npm:5.4.1"
+  checksum: fc9e52f7158dca3517c229e3309065b1ab5da6c7194572fba4f31ff138bc43e3c91182cc40365cc828f97fe10d0aca416068fd731661058bea0f69ddb84a411a
+  languageName: node
+  linkType: hard
+
 "param-case@npm:^3.0.4":
   version: 3.0.4
   resolution: "param-case@npm:3.0.4"
@@ -11434,6 +11476,16 @@ __metadata:
   version: 3.0.4
   resolution: "react-lifecycles-compat@npm:3.0.4"
   checksum: a904b0fc0a8eeb15a148c9feb7bc17cec7ef96e71188280061fc340043fd6d8ee3ff233381f0e8f95c1cf926210b2c4a31f38182c8f35ac55057e453d6df204f
+  languageName: node
+  linkType: hard
+
+"react-papaparse@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "react-papaparse@npm:4.1.0"
+  dependencies:
+    "@types/papaparse": ^5.3.1
+    papaparse: ^5.3.1
+  checksum: 8ac23c9ef85d5b7782cd97ac796234b4ba311e250e9cb60acebc8ce505c932852f1fcbcb9b7d3a9fb33f1f9e8651ceeea7c2a33dc01336b1da208fabdf09b936
   languageName: node
   linkType: hard
 

@@ -1,4 +1,4 @@
-﻿Animal,Name,Color
-Tiger,Johnny,Orange
-Kangaroo,Kara,Brown
-Zebra,Zayn,White
+name, min_val, max_val
+America, 7, 100
+Colombia, 12, 54
+Ecuador, 6, 66

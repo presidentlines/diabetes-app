@@ -38,8 +38,9 @@ export default function MenuBar() {
           value={value}
           onChange={handleChange}
           aria-label="basic tabs example"
-          textColor="black"
-          backgroundColor="black"
+          // sx={{
+          //   backgroundColor: "black",
+          // }}
           TabIndicatorProps={{
             style: {
               backgroundColor: "#222222",

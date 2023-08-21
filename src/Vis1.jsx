@@ -10,7 +10,6 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
-import { Box } from "@mui/material";
 
 export default function Vis1() {
   const data01 = [
