@@ -38,9 +38,10 @@ export default function MenuBar() {
           value={value}
           onChange={handleChange}
           aria-label="basic tabs example"
-          // sx={{
-          //   backgroundColor: "black",
-          // }}
+          textColor="inherit"
+          sx={{
+            color: "black",
+          }}
           TabIndicatorProps={{
             style: {
               backgroundColor: "#222222",
@@ -49,10 +50,10 @@ export default function MenuBar() {
         >
           <Tab label="Vis 1" {...a11yProps(0)} />
           <Tab label="Vis 2" {...a11yProps(1)} />
-          <Tab label="Vis 3" {...a11yProps(2)} />
-          <Tab label="Vis 4" {...a11yProps(3)} />
-          <Tab label="Vis 5" {...a11yProps(4)} />
-          <Tab label="Vis 6" {...a11yProps(5)} />
+          <Tab label="Hospital Vs. Medications" {...a11yProps(2)} />
+          <Tab label="Data Count" {...a11yProps(3)} />
+          <Tab label="Detailed Patients" {...a11yProps(4)} />
+          <Tab label="High Level Table" {...a11yProps(5)} />
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>

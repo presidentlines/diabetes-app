@@ -4,7 +4,7 @@ import MenuBar from "../menuBar/menuBar.jsx";
 
 export default function LayoutWrapper() {
   return (
-    <Box display="grid" gridLayoutRows={"30px auto"}>
+    <Box display="grid" gridTemplateRows={"30px auto"}>
       <Paper
         sx={{
           position: "relative",

@@ -1,0 +1,7 @@
+count,race,encounter_id,patient_nbr,admission_type_id,discharge_disposition_id,admission_source_id,time_in_hospital,num_lab_procedures,num_procedures,num_medications,number_outpatient,number_emergency,number_inpatient,number_diagnoses
+76099,Caucasian,156360066.0,51795837.0,1.0,1.0,7.0,4.0,44.0,1.0,15.0,0.0,0.0,0.0,9.0
+19210,AfricanAmerican,135075513.0,25304634.0,1.0,1.0,7.0,4.0,44.0,1.0,14.0,0.0,0.0,0.0,8.0
+2273,?,110749296.0,38231730.0,2.0,1.0,6.0,4.0,45.0,0.0,14.0,0.0,0.0,0.0,7.0
+2037,Hispanic,150566592.0,56757096.0,1.0,1.0,7.0,3.0,43.0,0.0,13.0,0.0,0.0,0.0,7.0
+1506,Other,171797466.0,71541414.0,2.0,1.0,7.0,3.0,44.0,1.0,14.0,0.0,0.0,0.0,8.0
+641,Asian,182358888.0,75095388.0,2.0,1.0,7.0,3.0,43.0,1.0,12.0,0.0,0.0,0.0,8.0
