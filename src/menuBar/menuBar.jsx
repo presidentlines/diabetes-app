@@ -1,7 +1,7 @@
 import React from "react";
 import CustomTabPanel from "./CustomTabPanel.jsx";
 import { Box, Tabs, Tab, Typography } from "@mui/material";
-import Vis1 from "../Vis1.jsx";
+// import Vis1 from "../Vis1.jsx";
 import Vis2 from "../Vis2.jsx";
 import Vis3 from "../Vis3.jsx";
 import Vis4 from "../Vis4.jsx";
@@ -48,30 +48,26 @@ export default function MenuBar() {
             },
           }}
         >
-          <Tab label="Vis 1" {...a11yProps(0)} />
-          <Tab label="Vis 2" {...a11yProps(1)} />
-          <Tab label="Hospital Vs. Medications" {...a11yProps(2)} />
-          <Tab label="Data Count" {...a11yProps(3)} />
-          <Tab label="Detailed Patients" {...a11yProps(4)} />
-          <Tab label="High Level Table" {...a11yProps(5)} />
+          <Tab label="PCA" {...a11yProps(0)} />
+          <Tab label="Hospital Vs. Medications" {...a11yProps(1)} />
+          <Tab label="Data Count" {...a11yProps(2)} />
+          <Tab label="Detailed Patients" {...a11yProps(3)} />
+          <Tab label="High Level Table" {...a11yProps(4)} />
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>
-        <Vis1 />
-      </CustomTabPanel>
-      <CustomTabPanel value={value} index={1}>
         <Vis2 />
       </CustomTabPanel>
-      <CustomTabPanel value={value} index={2}>
+      <CustomTabPanel value={value} index={1}>
         <Vis3 />
       </CustomTabPanel>
-      <CustomTabPanel value={value} index={3}>
+      <CustomTabPanel value={value} index={2}>
         <Vis4 />
       </CustomTabPanel>
-      <CustomTabPanel value={value} index={4}>
+      <CustomTabPanel value={value} index={3}>
         <Vis5 />
       </CustomTabPanel>
-      <CustomTabPanel value={value} index={5}>
+      <CustomTabPanel value={value} index={4}>
         <Vis6 />
       </CustomTabPanel>
     </>
